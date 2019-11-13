@@ -1,2 +1,1 @@
-# curriculum_vitae
-A personal website for my CV. 
+A personal website for Curriculum Vitae (CV). The website is based on React. 
