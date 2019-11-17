@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import ankurThumbNail from "../Images/ankurThumbNail.jfif";
 import "../CSS/Navbar.css";
-import Scroll from "./scrollBottom";
+
+
+import "../CSS/scrollBottom.css";
 import Typewriter from "typewriter-effect";
 
 import About from './About'
@@ -79,10 +81,14 @@ export class Navbar extends Component {
         </div>
 {/* Text-block code ends here  */}
 
-        <div>
-          <Scroll />
-        </div>
 
+{/* Scroll Bottom Icon starts here refer to scrollBottom.css file */}
+          <div class="arrow">
+                <a href = "./"><span></span></a>
+                <a href = "/"><span></span></a>
+                <a href = "/"><span></span></a>
+            </div>
+{/* Scroll Bottom Ends Here */}
       </div>
     );
   }

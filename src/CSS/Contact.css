@@ -1,0 +1,57 @@
+.card {
+  width: "20rem";
+  height: 150px;
+  align-items: center;
+  margin-top: 20px;
+  display: block;
+}
+.contact {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+#contact {
+  background: #fff;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+#contact h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 26px;
+}
+#contact h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+@media (min-width: 1200px) {
+    .messageBox {
+      margin-left: 70px;
+      width: 1060px;
+      
+    }
+  }
+
+  @media (min-width: 980px) {
+    .messageBox {
+      margin-left: 470px;
+      width: 1260px;
+      
+      
+    }
+  }
+  
+  @media (max-width: 576px) {
+      .textArea {
+          
+        width: 370px;
+      }
+    }
+  
+  
+.messageBox {
+    height: 230px;
+}
+
+    

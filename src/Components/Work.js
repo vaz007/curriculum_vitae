@@ -1,40 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 import "../CSS/Eandw.css";
-export class EducationAndWork extends Component {
-  render() {
-    return (
-      <div id ="resume">
-       <div class="row education">
-            <div class="col-sm-12 col-md-3 col-lg-3">
-              <h1>
-                <span>Education</span>
-              </h1>
-            </div>
-            <div class="col-sm-12 col-md-9 col-lg-9 text-left">
-              <h3>Australian National University</h3>
-              <p class="info">
-                Masters of Computing with Specialisation in Artificial
-                Intelligence <span>&bull;</span>{" "}
-                <em class="date">November 2019</em>
-              </p>
-              <p className="details">
-                Completed my Masters with major focus in Artificial Intelligence
-                and gained knowledge in the field of software development
-              </p>
-
-              <h3>IBSAR</h3>
-              <p class="info">
-                Bachelors of Computing with Majors in Software Development{" "}
-                <span>&bull;</span> <em class="date">November 2019</em>
-              </p>
-              <p className="details">
-                Completed my Masters with major focus in Artificial Intelligence
-                and gained knowledge in the field of software development
-              </p>
-            </div>
-          </div>
-
-          <div class="row work">
+export class Work extends Component {
+    render() {
+        return (
+        <div class="row work" id ="resume">
             <div class="col-sm-12 col-md-3 col-lg-3">
               <h1>
                 <span>Work</span>
@@ -106,9 +75,9 @@ export class EducationAndWork extends Component {
               </p>
             </div>
           </div>
-    </div>
-    );
-  }
+    
+        )
+    }
 }
 
-export default EducationAndWork;
+export default Work

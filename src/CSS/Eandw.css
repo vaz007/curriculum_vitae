@@ -1,6 +1,5 @@
 #resume {
     background: #fff;
-    padding-top: 90px;
     overflow: hidden;
  }
  
@@ -20,9 +19,6 @@
  #resume h4 {
     font: 20px/30px 'opensans-bold', sans-serif;
  }
- #resume .header-col { padding-top: 9px; }
- #resume .main-col { padding-right: 10%; }
- 
  .education, .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
