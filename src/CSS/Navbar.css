@@ -1,0 +1,54 @@
+
+
+@media (min-width: 1200px) {
+    .cover {
+        background-image: url("../Images/banner.png");
+    
+        
+        /* Center and scale the image nicely */
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 940px;
+    
+      /* Needed to position the navbar */
+         position: relative;   
+    }      
+    
+ }
+
+ @media (max-width: 992px) { 
+    .cover {
+        background-image: url("../Images/ipadBanner.png");
+
+        /* Center and scale the image nicely */
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 930px;
+    
+        position: relative;
+    }
+  }
+
+.navbar-brand{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+ 
+}
+nav-link:hover {
+    color: #06A8FF;
+}
+
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50%;
+
+}

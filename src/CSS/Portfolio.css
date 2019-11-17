@@ -1,0 +1,28 @@
+.card {
+  width: "20rem";
+  height: "15rem";
+  align-items: center;
+  margin-top: 10px;
+  display: block;
+}
+.projects{
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;
+}
+#projects {
+  background: #fff;
+  padding-bottom: 72px;
+  overflow: hidden;
+
+}
+#projects h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 26px;
+}
+#projects h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
