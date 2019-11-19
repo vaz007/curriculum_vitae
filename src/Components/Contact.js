@@ -12,7 +12,7 @@ export class Contact extends Component {
                 <span>Contact</span>
               </h1>
             </div>
-            
+
             <div class="col-sm-3 col-md-6 col-lg-2">
               <div class="card box shadow">
                 <h5>Location</h5>
@@ -46,6 +46,8 @@ export class Contact extends Component {
               </div>
             </div>
 
+            {/* Message Box */}
+            {/* 
             <div class="col-sm-12 col-md-10 col-lg-6">
               <div className="messageBox card box shadow">
                 <form className="">
@@ -98,6 +100,8 @@ export class Contact extends Component {
                 </form>
               </div>
             </div>
+     */}
+     
           </div>
         </div>
       </div>
