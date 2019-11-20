@@ -22,9 +22,10 @@ export class Portfolio extends Component {
           <div className="card box shadow">
             <img
               className="card-img"
-              alt="Card image"
+              alt="Card"
               src={NeuralNetworkImg}
               style={{ minHeight: "250px" }}
+              
             />
             <div className="card-img-overlay">
               <h5 className="card-title" style={{ color: "white" }}>
@@ -43,7 +44,7 @@ export class Portfolio extends Component {
               className="card-img"
               src={LaneSegmentation}
               style={{ maxHeight: "250px" }}
-              alt="Card image"
+              alt="Card"
             />
             <div className="card-img-overlay">
               <h5 className="card-title" style={{ color: "white" }}>
@@ -66,7 +67,7 @@ export class Portfolio extends Component {
               className="card-img"
               src={Venom}
               style={{ minHeight: "250px" }}
-              alt="Card image"
+              alt="Card"
             />
             <div className="card-img-overlay">
               <h5 className="card-title" style={{ color: "white" }}>
@@ -84,7 +85,7 @@ export class Portfolio extends Component {
               className="card-img"
               src={Mern}
               style={{ minHeight: "250px" }}
-              alt="Card image"
+              alt="Card"
             />
             <div className="card-img-overlay">
               <h5 className="card-title" style={{ color: "white" }}>
@@ -107,7 +108,7 @@ export class Portfolio extends Component {
               className="card-img"
               src={ToDo}
               style={{ maxHeight: "250px" }}
-              alt="Card image"
+              alt="Card"
             />
             <div className="card-img-overlay">
               <h5 className="card-title" style={{ color: "white" }}>
@@ -124,7 +125,7 @@ export class Portfolio extends Component {
               className="card-img"
               src={Android}
               style={{ minHeight: "250px" }}
-              alt="Card image"
+              alt="Card"
             />
             <div className="card-img-overlay">
               <h5 className="card-title" style={{ color: "white" }}>
