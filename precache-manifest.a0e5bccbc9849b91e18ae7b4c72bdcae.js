@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab67c98183ce311cf581b51c449ce387",
+    "revision": "42c50a3b048406c5b40c351838f22e2c",
     "url": "/curriculum_vitae/index.html"
   },
   {
-    "revision": "d44f85cbf4c907b9a771",
+    "revision": "57185a6f9ee73483e522",
     "url": "/curriculum_vitae/static/css/2.6652cf7a.chunk.css"
   },
   {
-    "revision": "7a1e9ef54ae83c5a3523",
-    "url": "/curriculum_vitae/static/css/main.037a827f.chunk.css"
+    "revision": "1afa1d37534b0388fde0",
+    "url": "/curriculum_vitae/static/css/main.5d3caa99.chunk.css"
   },
   {
-    "revision": "d44f85cbf4c907b9a771",
-    "url": "/curriculum_vitae/static/js/2.a575b6dd.chunk.js"
+    "revision": "57185a6f9ee73483e522",
+    "url": "/curriculum_vitae/static/js/2.21e217eb.chunk.js"
   },
   {
-    "revision": "7a1e9ef54ae83c5a3523",
-    "url": "/curriculum_vitae/static/js/main.7641b386.chunk.js"
+    "revision": "1afa1d37534b0388fde0",
+    "url": "/curriculum_vitae/static/js/main.8c069bbe.chunk.js"
   },
   {
     "revision": "23c13e67721ef4acaba8",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9628891c3e19d3340620aec02569a2b2",
     "url": "/curriculum_vitae/static/media/AboutPage.9628891c.png"
+  },
+  {
+    "revision": "2fae748725f9b0e7f2df3cd874113872",
+    "url": "/curriculum_vitae/static/media/android.2fae7487.png"
   },
   {
     "revision": "47e9e25619522e31ed6d644ad71ec378",
@@ -98,5 +102,25 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a83ea39be1eb263667c02f9cf63fc1f3",
     "url": "/curriculum_vitae/static/media/ipadBanner.a83ea39b.png"
+  },
+  {
+    "revision": "b616ddaea6863c3578be1ea5a4ec5954",
+    "url": "/curriculum_vitae/static/media/laneSegment.b616ddae.jpg"
+  },
+  {
+    "revision": "10e6cdb4c1d1f30c1d4ab22cd780dc23",
+    "url": "/curriculum_vitae/static/media/mern.10e6cdb4.png"
+  },
+  {
+    "revision": "ea519baee3facaba643e6321cbdb26c3",
+    "url": "/curriculum_vitae/static/media/neuralnetwork.ea519bae.jpeg"
+  },
+  {
+    "revision": "72f8c2aabc1f8af7bae0c8f761ee23cf",
+    "url": "/curriculum_vitae/static/media/toDoList.72f8c2aa.jfif"
+  },
+  {
+    "revision": "b1b3bb1e525469f4aa93747760332f91",
+    "url": "/curriculum_vitae/static/media/venom.b1b3bb1e.jpeg"
   }
 ]);
