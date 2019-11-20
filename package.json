@@ -2,7 +2,7 @@
   "name": "curriculum_vitae",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vaz007.github.io/curriculum_vitae",
+  "homepage": "https://vaz007/curriculum_vitae",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
     "animate.css": "^3.7.2",
