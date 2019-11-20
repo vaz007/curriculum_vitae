@@ -3,19 +3,19 @@ import "../CSS/Eandw.css";
 export class Work extends Component {
   render() {
     return (
-      <div class="row work" id="resume">
-        <div class="col-sm-12 col-md-3 col-lg-3">
+      <div className="row work" id="resume">
+        <div className="col-sm-12 col-md-3 col-lg-3">
           <h1>
             <span>Work</span>
           </h1>
         </div>
 
-        <div class="col-sm-12 col-md-9 col-lg-9 text-left">
+        <div className="col-sm-12 col-md-9 col-lg-9 text-left">
           <h3>Adapt Ideations Pvt. Ltd.</h3>
           <h4> Sydney, Australia.</h4>
-          <p class="info">
+          <p className="info">
             Software Developer <span>&bull;</span>{" "}
-            <em class="date">November 2018 - Present</em>
+            <em className="date">November 2018 - Present</em>
           </p>
           <p className="details">
             Worked on various complex API for CHEP backend system. The API
@@ -44,9 +44,9 @@ export class Work extends Component {
 
           <h3>Aeon Pvt. Ltd.</h3>
           <h4> Mulund, Mumbai.</h4>
-          <p class="info">
+          <p className="info">
             Intern <span>&bull;</span>{" "}
-            <em class="date">September 2017 - October 2017</em>
+            <em className="date">September 2017 - October 2017</em>
           </p>
           <p className="details">
             During the four weeks of my internship period, was working with a
@@ -59,9 +59,9 @@ export class Work extends Component {
 
           <h3>MDS Pvt. Ltd.</h3>
           <h4> Mulund, Mumbai.</h4>
-          <p class="info">
+          <p className="info">
             Intern <span>&bull;</span>{" "}
-            <em class="date">September 2017 - October 2017</em>
+            <em className="date">September 2017 - October 2017</em>
           </p>
           <p className="details">
             Improved the response time of the website by reducing the image size
@@ -71,9 +71,9 @@ export class Work extends Component {
 
           <h3>Municipal Corporation of greater Mumbai</h3>
           <h4> Mulund, Mumbai.</h4>
-          <p class="info">
+          <p className="info">
             Intern <span>&bull;</span>{" "}
-            <em class="date">September 2017 - October 2017</em>
+            <em className="date">September 2017 - October 2017</em>
           </p>
           <p className="details">
             Key learning was understanding customized version of Telvent

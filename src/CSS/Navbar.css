@@ -40,14 +40,17 @@
   
 }
 
-.navbar-brand {
-  color: white;
-  font-weight: 600;
+.navbar{
+  border-bottom: 0.2px solid grey;
+}
+.navbar .navbar-brand {
+  color: black;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 .navbar .nav-item .nav-link{
-  color: white;
+  color: blue;
   }
 
 .text-block {

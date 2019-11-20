@@ -4,57 +4,57 @@ export class Contact extends Component {
   render() {
     return (
         <div id="contact">
-          <div class="row contact">
-            <div class="col-sm-12 col-md-12 col-lg-3">
+          <div className="row contact">
+            <div className="col-sm-12 col-md-12 col-lg-3">
               <h1>
                 <span>Contact</span>
               </h1>
             </div>
 
-            <div class="col-sm-3 col-md-6 col-lg-2">
-              <div class="card box shadow">
+            <div className="col-sm-3 col-md-6 col-lg-2">
+              <div className="card box shadow">
                 <h5>
                   <span>Location</span>
                 </h5>
                 <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
-                <i class="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
                 </span>
                 <p className = "icons">
                   24, Hawdon Street, Ainslie, Canberra, ACT-2602
                 </p>
               </div>
             </div>
-            <div class="col-sm-3 col-md-6 col-lg-2">
-              <div class="card box shadow">
+            <div className="col-sm-3 col-md-6 col-lg-2">
+              <div className="card box shadow">
                 <h5>
                   <span>Contact</span>
                 </h5>
                 <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
-                <i class="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt"></i>
                 </span>
                 <p className = "icons">+61 0474296023</p>
               </div>
             </div>
 
-            <div class="col-sm-3 col-md-6 col-lg-2">
-              <div class="card box shadow">
+            <div className="col-sm-3 col-md-6 col-lg-2">
+              <div className="card box shadow">
                 <h5>
                   <span>Email</span>
                 </h5>
                 <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
-                <i class="fas fa-envelope"></i>
+                <i className="fas fa-envelope"></i>
                 </span>
                 <p className = "icons">ankurvazirani05@gmail.com</p>
               </div>
             </div>
 
-            <div class="col-sm-3 col-md-6 col-lg-2">
-              <div class="card box shadow">
+            <div className="col-sm-3 col-md-6 col-lg-2">
+              <div className="card box shadow">
                 <h5>
                   <span>Social Media</span>
                 </h5>
                 <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                 </span>
                 <span
                   style={{
@@ -63,23 +63,23 @@ export class Contact extends Component {
                     marginLeft: "1rem"
                   }}
                 >
-                  <i class="fab fa-facebook"></i>
+                  <i className="fab fa-facebook"></i>
 
                 </span>
 
                 <span style={{ fontSize: "48px", marginLeft: "1rem"}}>
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                 </span>
                 <p className = "icons">Know more about me.</p>
                 
               </div>
             </div>
 
-            {/* <div class="col-sm-12 col-md-10 col-lg-6">
+            {/* <div className="col-sm-12 col-md-10 col-lg-6">
               <div className="messageBox card box shadow">
                 <form className="">
                   <div
-                    class="row justify-content-centre"
+                    className="row justify-content-centre"
                     style={{
                       marginTop: "2rem",
                       marginLeft: "1rem",
@@ -87,26 +87,26 @@ export class Contact extends Component {
                       marginBottom: "1rem"
                     }}
                   >
-                    <div class="col">
+                    <div className="col">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         placeholder="Full Name"
                       />
                     </div>
-                    <div class="col">
+                    <div className="col">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         placeholder="Email"
                       />
                     </div>
                   </div>
                   <div className="row justify-content-centre">
-                    <div class="col-sm-10 col-md-10 col-lg-6">
+                    <div className="col-sm-10 col-md-10 col-lg-6">
                       <textarea
                         type="text"
-                        class="textArea form-control"
+                        className="textArea form-control"
                         placeholder="Message"
                         style={{
                           marginLeft: "2rem",
@@ -117,8 +117,8 @@ export class Contact extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div class="col-sm-12 col-md-10 col-lg-6">
-                      <button type="submit" class="btn btn-primary">
+                    <div className="col-sm-12 col-md-10 col-lg-6">
+                      <button type="submit" className="btn btn-primary">
                         Send
                       </button>
                     </div>

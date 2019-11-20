@@ -12,7 +12,7 @@ export class Navbar extends Component {
       <div className = "cover">   
 
         <nav className="navbar navbar-expand-lg navbar-light fixed-top justify-content-center">
-          <a className="navbar-brand" href="/" style={{ color: "white" }}>
+          <a className="navbar-brand" href="/" style={{ color: "blue" }}>
             Ankur
             <img
               src={ankurThumbNail}

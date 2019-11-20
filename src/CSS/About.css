@@ -71,3 +71,9 @@
     padding-bottom: 6px;
   }
   
+#about h5 span {
+  font: 20px/28px "opensans", sans-serif;
+  font-style: italic;
+  padding-bottom: 6px;
+}
+  
