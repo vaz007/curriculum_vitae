@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "../CSS/Contact.css";
-
 export class Contact extends Component {
   render() {
     return (
-      <div>
         <div id="contact">
           <div class="row contact">
             <div class="col-sm-12 col-md-12 col-lg-3">
@@ -15,40 +13,69 @@ export class Contact extends Component {
 
             <div class="col-sm-3 col-md-6 col-lg-2">
               <div class="card box shadow">
-                <h5>Location</h5>
-                <p className="info">
+                <h5>
+                  <span>Location</span>
+                </h5>
+                <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
+                <i class="fas fa-map-marker-alt"></i>
+                </span>
+                <p className = "icons">
                   24, Hawdon Street, Ainslie, Canberra, ACT-2602
                 </p>
               </div>
             </div>
             <div class="col-sm-3 col-md-6 col-lg-2">
               <div class="card box shadow">
-                <h5>Contact</h5>
-                <p className="info">+61 0474296023</p>
+                <h5>
+                  <span>Contact</span>
+                </h5>
+                <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
+                <i class="fas fa-phone-alt"></i>
+                </span>
+                <p className = "icons">+61 0474296023</p>
               </div>
             </div>
 
             <div class="col-sm-3 col-md-6 col-lg-2">
               <div class="card box shadow">
-                <h5>Email</h5>
-                <p className="info">
-                  24, Hawdon Street, Ainslie, Canberra, ACT-2602
-                </p>
+                <h5>
+                  <span>Email</span>
+                </h5>
+                <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
+                <i class="fas fa-envelope"></i>
+                </span>
+                <p className = "icons">ankurvazirani05@gmail.com</p>
               </div>
             </div>
 
             <div class="col-sm-3 col-md-6 col-lg-2">
               <div class="card box shadow">
-                <h5>Social Media</h5>
-                <p className="info">
-                  24, Hawdon Street, Ainslie, Canberra, ACT-2602
-                </p>
+                <h5>
+                  <span>Social Media</span>
+                </h5>
+                <span style={{ fontSize: "48px", color: "Dodgerblue" }}>
+                  <i class="fab fa-linkedin"></i>
+                </span>
+                <span
+                  style={{
+                    fontSize: "48px",
+                    color: "Dodgerblue",
+                    marginLeft: "1rem"
+                  }}
+                >
+                  <i class="fab fa-facebook"></i>
+
+                </span>
+
+                <span style={{ fontSize: "48px", marginLeft: "1rem"}}>
+                  <i class="fab fa-github"></i>
+                </span>
+                <p className = "icons">Know more about me.</p>
+                
               </div>
             </div>
 
-            {/* Message Box */}
-            {/* 
-            <div class="col-sm-12 col-md-10 col-lg-6">
+            {/* <div class="col-sm-12 col-md-10 col-lg-6">
               <div className="messageBox card box shadow">
                 <form className="">
                   <div
@@ -65,7 +92,6 @@ export class Contact extends Component {
                         type="text"
                         class="form-control"
                         placeholder="Full Name"
-                       
                       />
                     </div>
                     <div class="col">
@@ -76,35 +102,34 @@ export class Contact extends Component {
                       />
                     </div>
                   </div>
-                  <div className = "row justify-content-centre">
+                  <div className="row justify-content-centre">
                     <div class="col-sm-10 col-md-10 col-lg-6">
-                        <textarea
-                          type="text"
-                          class="textArea form-control"
-                          placeholder="Message"
-                          style={{
-                            marginLeft: "2rem",
-                            marginBottom: "1rem",
-                            height: "5rem"
-                          }}
-                        />
-                      </div>  
+                      <textarea
+                        type="text"
+                        class="textArea form-control"
+                        placeholder="Message"
+                        style={{
+                          marginLeft: "2rem",
+                          marginBottom: "1rem",
+                          height: "5rem"
+                        }}
+                      />
                     </div>
-                  <div className = "row">
-                  <div class="col-sm-12 col-md-10 col-lg-6">
-                        <button type="submit" class="btn btn-primary">
-                          Send
-                        </button>
-                      </div>
+                  </div>
+                  <div className="row">
+                    <div class="col-sm-12 col-md-10 col-lg-6">
+                      <button type="submit" class="btn btn-primary">
+                        Send
+                      </button>
+                    </div>
                   </div>
                 </form>
               </div>
             </div>
-     */}
-     
+          </div> */}
           </div>
         </div>
-      </div>
+      
     );
   }
 }

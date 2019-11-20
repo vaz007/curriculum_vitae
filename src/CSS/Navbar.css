@@ -1,54 +1,79 @@
-
-
 @media (min-width: 1200px) {
-    .cover {
-        background-image: url("../Images/banner.png");
-    
-        
-        /* Center and scale the image nicely */
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 940px;
-    
-      /* Needed to position the navbar */
-         position: relative;   
-    }      
-    
- }
+  .cover {
+    background-image: url("../Images/banner.png");
 
- @media (max-width: 992px) { 
-    .cover {
-        background-image: url("../Images/ipadBanner.png");
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 942px;
 
-        /* Center and scale the image nicely */
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 930px;
-    
-        position: relative;
-    }
+    /* Needed to position the navbar */
+    position: relative;
   }
-
-.navbar-brand{
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
- 
-}
-nav-link:hover {
-    color: #06A8FF;
 }
 
+@media (max-width: 992px) {
+  .cover {
+    background-image: url("../Images/ipadBanner.png");
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 940px;
+
+    position: relative;
+  }
+}
+
+@media (max-width: 576px) {
+  .cover {
+    background-image: url("../Images/ipadBanner.png");
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 576px;
+
+    position: relative;
+    width: 100%;
+  }
+  
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar .nav-item .nav-link{
+  color: white;
+  }
 
 .text-block {
   position: absolute;
   bottom: 20px;
   right: 20px;
   color: white;
-  font-weight: 600;
-  font-size: 50px;
+  font-weight: 400;
+  font-size: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  height: 50%;
+  height: 20%;
+  text-align: left;
+}
+.text-block-heading h5{
+  font: 28px/34px 'opensans-bold', sans-serif;
+  padding-bottom: 6px;
+  color:white;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 25%;
+  text-align: left;
 
 }

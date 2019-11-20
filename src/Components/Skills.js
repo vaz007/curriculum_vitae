@@ -12,7 +12,7 @@ export class Skills extends Component {
                 <span>Skills</span>
               </h1>
             </div>
-            <div class="col-sm-4 col-md-8 col-lg-8">
+            <div class="col-sm-4 col-md-8 col-lg-5">
         
             <ScrollAnimation
               animateIn="bounceInRight"
