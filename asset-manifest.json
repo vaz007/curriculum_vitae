@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/curriculum_vitae/static/css/main.2f131179.chunk.css",
-    "main.js": "/curriculum_vitae/static/js/main.5d1e0f2a.chunk.js",
-    "main.js.map": "/curriculum_vitae/static/js/main.5d1e0f2a.chunk.js.map",
+    "main.css": "/curriculum_vitae/static/css/main.3727fb44.chunk.css",
+    "main.js": "/curriculum_vitae/static/js/main.dd58d649.chunk.js",
+    "main.js.map": "/curriculum_vitae/static/js/main.dd58d649.chunk.js.map",
     "runtime-main.js": "/curriculum_vitae/static/js/runtime-main.c739497c.js",
     "runtime-main.js.map": "/curriculum_vitae/static/js/runtime-main.c739497c.js.map",
-    "static/css/2.6652cf7a.chunk.css": "/curriculum_vitae/static/css/2.6652cf7a.chunk.css",
-    "static/js/2.21e217eb.chunk.js": "/curriculum_vitae/static/js/2.21e217eb.chunk.js",
-    "static/js/2.21e217eb.chunk.js.map": "/curriculum_vitae/static/js/2.21e217eb.chunk.js.map",
+    "static/css/2.88e922d7.chunk.css": "/curriculum_vitae/static/css/2.88e922d7.chunk.css",
+    "static/js/2.098b7377.chunk.js": "/curriculum_vitae/static/js/2.098b7377.chunk.js",
+    "static/js/2.098b7377.chunk.js.map": "/curriculum_vitae/static/js/2.098b7377.chunk.js.map",
     "index.html": "/curriculum_vitae/index.html",
-    "precache-manifest.02faf208b2d8d4fe5639df0f2efe4721.js": "/curriculum_vitae/precache-manifest.02faf208b2d8d4fe5639df0f2efe4721.js",
+    "precache-manifest.808c7321df8591e5f3c39a604f26c50b.js": "/curriculum_vitae/precache-manifest.808c7321df8591e5f3c39a604f26c50b.js",
     "service-worker.js": "/curriculum_vitae/service-worker.js",
-    "static/css/2.6652cf7a.chunk.css.map": "/curriculum_vitae/static/css/2.6652cf7a.chunk.css.map",
-    "static/css/main.2f131179.chunk.css.map": "/curriculum_vitae/static/css/main.2f131179.chunk.css.map",
-    "static/media/AboutPage.png": "/curriculum_vitae/static/media/AboutPage.9628891c.png",
+    "static/css/2.88e922d7.chunk.css.map": "/curriculum_vitae/static/css/2.88e922d7.chunk.css.map",
+    "static/css/main.3727fb44.chunk.css.map": "/curriculum_vitae/static/css/main.3727fb44.chunk.css.map",
+    "static/media/ANKUR_VAZIRANI.pdf": "/curriculum_vitae/static/media/ANKUR_VAZIRANI.5d3d9ae1.pdf",
     "static/media/android.png": "/curriculum_vitae/static/media/android.2fae7487.png",
     "static/media/ankurThumbNail.jfif": "/curriculum_vitae/static/media/ankurThumbNail.47e9e256.jfif",
     "static/media/Navbar.css": "/curriculum_vitae/static/media/ipadBanner.a83ea39b.png",
@@ -26,9 +26,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c739497c.js",
-    "static/css/2.6652cf7a.chunk.css",
-    "static/js/2.21e217eb.chunk.js",
-    "static/css/main.2f131179.chunk.css",
-    "static/js/main.5d1e0f2a.chunk.js"
+    "static/css/2.88e922d7.chunk.css",
+    "static/js/2.098b7377.chunk.js",
+    "static/css/main.3727fb44.chunk.css",
+    "static/js/main.dd58d649.chunk.js"
   ]
 }

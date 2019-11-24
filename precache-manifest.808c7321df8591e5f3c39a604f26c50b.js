@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a26607c95595f92447a11c51e8163dc9",
+    "revision": "a78669a2d18d414839ea0a5581deb824",
     "url": "/curriculum_vitae/index.html"
   },
   {
-    "revision": "57185a6f9ee73483e522",
-    "url": "/curriculum_vitae/static/css/2.6652cf7a.chunk.css"
+    "revision": "18bed99e4a54605126e3",
+    "url": "/curriculum_vitae/static/css/2.88e922d7.chunk.css"
   },
   {
-    "revision": "b4d44b4188e3d765a2d0",
-    "url": "/curriculum_vitae/static/css/main.2f131179.chunk.css"
+    "revision": "b57e5a7e7ad787266ac4",
+    "url": "/curriculum_vitae/static/css/main.3727fb44.chunk.css"
   },
   {
-    "revision": "57185a6f9ee73483e522",
-    "url": "/curriculum_vitae/static/js/2.21e217eb.chunk.js"
+    "revision": "18bed99e4a54605126e3",
+    "url": "/curriculum_vitae/static/js/2.098b7377.chunk.js"
   },
   {
-    "revision": "b4d44b4188e3d765a2d0",
-    "url": "/curriculum_vitae/static/js/main.5d1e0f2a.chunk.js"
+    "revision": "b57e5a7e7ad787266ac4",
+    "url": "/curriculum_vitae/static/js/main.dd58d649.chunk.js"
   },
   {
     "revision": "23c13e67721ef4acaba8",
     "url": "/curriculum_vitae/static/js/runtime-main.c739497c.js"
   },
   {
-    "revision": "9628891c3e19d3340620aec02569a2b2",
-    "url": "/curriculum_vitae/static/media/AboutPage.9628891c.png"
+    "revision": "5d3d9ae1723d3a453f89162e7ed45676",
+    "url": "/curriculum_vitae/static/media/ANKUR_VAZIRANI.5d3d9ae1.pdf"
   },
   {
     "revision": "2fae748725f9b0e7f2df3cd874113872",
