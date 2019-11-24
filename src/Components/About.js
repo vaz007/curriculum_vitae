@@ -1,35 +1,36 @@
 import React, { Component } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
-import AboutImage from "../Images/AboutPage.png";
+// import AboutImage from "../Images/AboutPage.png";
 import "../CSS/About.css";
+import Resume from "../Assets/ANKUR_VAZIRANI.pdf";
+
 export class About extends Component {
   render() {
     return (
       <div className="row about" id="about">
-        <div className="col-sm-12 col-md-12 col-lg-3">
+        <div className="col-sm-12 col-md-3 col-lg-3">
           <h1>
             <span>About Me</span>
           </h1>
         </div>
-        <div className="col-sm-4 col-md-6 col-lg-4">
+        <div className="col-sm-12 col-md-9 col-lg-9 text-left">
           <ScrollAnimation animateIn="bounceInRight" animateOut="bounceInRight">
-            <h1>
-              <span>Ankur Vazirani</span>
-            </h1>
-            <h5>
+            <h3>
               <span>Full Stack Developer</span>
-            </h5>
-            <p className="text-left" style={{ marginLeft: "4rem" }}>
-              I am a full stack developer proficiency in building web apps using
-              MongoDB Express Nodejs and React (MERN) stack. I have completed my
-              Masters in Computing with specialisation in Artificial
-              Intelligence from the Australian National University.
+            </h3>
+            <p className="details">
+              I am experienced Software Engineer with a demonstrated history of working in the
+              information technology and services industry. Skilled in MERN Stack, Android
+              Development, Bootstrap, Artificial Neural Networks, HTML5, and
+              Python (Programming Language). Strong engineering professional
+              with a Master of Computer Applications - MCA focused in Artificial
+              Intelligence from The Australian National University.
             </p>
 
-            {/* Button COde  */}
+            {/* Button Code  */}
 
-            <a href="/" className="button">
+            <a href={Resume} className="button">
               Download Resume
             </a>
 
@@ -37,7 +38,7 @@ export class About extends Component {
           </ScrollAnimation>
         </div>
 
-        <div className="col-sm-4 col-md-6 col-lg-4">
+        {/* <div className="col-sm-4 col-md-6 col-lg-4">
           <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeInLeft">
             <img
               src={AboutImage}
@@ -46,7 +47,7 @@ export class About extends Component {
               alt="Cinque Terre"
             ></img>
           </ScrollAnimation>
-        </div>
+        </div> */}
       </div>
     );
   }

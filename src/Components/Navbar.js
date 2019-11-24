@@ -41,7 +41,7 @@ export class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/about">
                   About
                 </a>
               </li>
@@ -68,7 +68,7 @@ export class Navbar extends Component {
         <div className="text-block">
           <Typewriter
             options={{
-              strings: ["I am Ankur Vazirani", "Full Stack Developer", "AI specialist", ],
+              strings: ["Full Stack Developer", "AI specialist" ],
               autoStart: true,
               loop: true
             }}
@@ -76,7 +76,7 @@ export class Navbar extends Component {
         </div>
         <div className="text-block-heading">
           <h5>
-            <span>Welcome to my website</span>
+            <span>Ankur Vazirani</span>
           </h5>
         </div>
         {/* Text-block code ends here  */}
