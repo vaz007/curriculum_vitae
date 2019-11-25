@@ -8,6 +8,13 @@ import Skills from "./Skills";
 import Work from "./Work";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+
+// Add data to one file which will ease the imports 
+// var k = require ('../Data/data');
+// const about = k[0]  
+// console.log(about.about.h1);
+
+
 export class Resume extends Component {
   render() {
     return (

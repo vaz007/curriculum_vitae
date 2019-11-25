@@ -1,33 +1,22 @@
 import React, { Component } from "react";
 import "../CSS/Eandw.css";
+
+import EdFunction from '../ChildrenComponents/educationFunction';
+import MainHeader from '../ChildrenComponents/header'
+
+const Education = require("../Data/data");
+const EducationDataH1 = Education[1].education.h1;
+const ANU = Education[1].education.data[0].ANU;
+const IBSAR = Education[1].education.data[1].IBSAR;
+
 export class EducationAndWork extends Component {
   render() {
     return (
       <div className="row education" id="resume">
-        <div className="col-sm-12 col-md-3 col-lg-3">
-          <h1>
-            <span>Education</span>
-          </h1>
-        </div>
-        <div className="col-sm-12 col-md-9 col-lg-9 text-left">
-          <h3>Australian National University</h3>
-          <p className="info">
-            Masters of Computing with Specialisation in Artificial Intelligence{" "}
-            <span>&bull;</span> <em className="date">November 2019</em>
-          </p>
-          <p className="details">
-            Completed my Masters with major focus in Artificial Intelligence and
-            gained knowledge in the field of software development.
-        </p>  
-          <h3> Institute of Business Studies & Research</h3>
-          <p className="info">
-            Bachelors of Computing with Majors in Software Development{" "}
-            <span>&bull;</span> <em className="date">November 2019</em>
-          </p>
-          <p className="details">
-            Completed my Bachelors with major focus in Software Development and
-            designing software architecture. Further, gained understanding about clean architecture and complex design problems.
-          </p>
+        <MainHeader mainHeader = {EducationDataH1} />
+         <div className="col-sm-12 col-md-9 col-lg-9 text-left">
+        <EdFunction heading = {ANU.heading} info = {ANU.info} date = {ANU.date} details = {ANU.details} />
+        <EdFunction heading = {IBSAR.heading} info = {IBSAR.info} date = {IBSAR.date} details = {IBSAR.details} />
         </div>
       </div>
     );
