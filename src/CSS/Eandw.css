@@ -19,6 +19,13 @@
  #resume h4 {
     font: 20px/30px 'opensans-bold', sans-serif;
  }
+
+
+ #resume h5 {
+   font: 18px/20px 'opensans-bold', sans-serif;
+}
+
+
  .education, .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
